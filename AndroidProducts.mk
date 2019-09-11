@@ -14,4 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_polaris.mk
+    $(LOCAL_DIR)/aosp_polaris.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    aosp_polaris-user \
+    aosp_polaris-userdebug \
+    aosp_polaris-eng
